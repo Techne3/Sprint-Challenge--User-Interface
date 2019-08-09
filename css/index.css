@@ -66,6 +66,34 @@ p {
     line-height: 1.4;
 }
 
+/* navbar FIXME: */
+.logo-lambda{
+    margin-top:-20px;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* text-decoration: none; */
+    font-size: 16px;
+    margin-top:40px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#010101;
+
+}
+
+header{
+    width:100%;
+    margin-bottom:30px;
+    margin-top:40px;
+}
+
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,6 +139,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
 
 .bottom-content {
     display: flex;
